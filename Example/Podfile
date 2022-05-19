@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ATFramework_Tests' do
+  pod 'ATFramework', :path => '../'
+  
+  
+end
