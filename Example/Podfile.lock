@@ -1,0 +1,16 @@
+PODS:
+  - ATFramework (0.1.0)
+
+DEPENDENCIES:
+  - ATFramework (from `../`)
+
+EXTERNAL SOURCES:
+  ATFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ATFramework: 4264a9d86ece7e205afc684b221358dc4d0f48d6
+
+PODFILE CHECKSUM: ff602e892773b14f636df8a7824d3adccd9549c3
+
+COCOAPODS: 1.11.3
