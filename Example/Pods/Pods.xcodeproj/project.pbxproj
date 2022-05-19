@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0494C68A2836A2510030412A /* TestFW.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0494C6892836A2510030412A /* TestFW.xcframework */; };
 		27ACC923109E4A800130F033A5E707E2 /* Pods-ATFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9551087385A68AA260F2487575512A5F /* Pods-ATFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52E788513020BF185FD94786CD27CAB2 /* ATFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543F99F1548337DA64CF042FCB0092E /* ATFramework-dummy.m */; };
 		5950F70A1362E4BFC28E6C659C72AB7D /* ATFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B177532F6065EF5DA7B2340EFF9E3C00 /* ATFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0494C6892836A2510030412A /* TestFW.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestFW.xcframework; path = ../../Classes/TestFW.xcframework; sourceTree = "<group>"; };
 		0543F99F1548337DA64CF042FCB0092E /* ATFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATFramework-dummy.m"; sourceTree = "<group>"; };
 		1CEC6EAFF3F18DC48E11FB9100E1901B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1E7EC1A0360785F40C591DA219B36946 /* Pods-ATFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATFramework_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0494C68A2836A2510030412A /* TestFW.xcframework in Frameworks */,
 				65AEE2DA88E0CD7742A59E4E119CCD6A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,6 +85,7 @@
 		42DBD32CE14FC3F019DB76DE7C17CBAD /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
+				0494C6892836A2510030412A /* TestFW.xcframework */,
 				B030F8BA2C0A15DD3B801F9C21A5BCA6 /* ATFramework */,
 			);
 			name = "Development Pods";
@@ -330,7 +334,11 @@
 				INFOPLIST_FILE = "Target Support Files/ATFramework/ATFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ATFramework/ATFramework.modulemap";
 				PRODUCT_MODULE_NAME = ATFramework;
 				PRODUCT_NAME = ATFramework;
@@ -400,7 +408,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -488,7 +497,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ATFramework_Tests/Pods-ATFramework_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ATFramework_Tests/Pods-ATFramework_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -521,7 +534,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ATFramework_Tests/Pods-ATFramework_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ATFramework_Tests/Pods-ATFramework_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -554,7 +571,11 @@
 				INFOPLIST_FILE = "Target Support Files/ATFramework/ATFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ATFramework/ATFramework.modulemap";
 				PRODUCT_MODULE_NAME = ATFramework;
 				PRODUCT_NAME = ATFramework;
