@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ATFramework'
-  s.version          = '0.0.11'
+  s.version          = '0.0.12'
   s.summary          = 'summary is new to test'
 
 # This description is used to generate tags and improve search results.
@@ -29,6 +29,7 @@ DESC
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.swift_version = '4.0'
 
   #s.source_files = 'ATFramework/sourceFramework/**/*.swift'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 arm64e armv7 armv7s x86_64' }
