@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ATFramework'
-  s.version          = '0.0.10'
+  s.version          = '0.0.11'
   s.summary          = 'summary is new to test'
 
 # This description is used to generate tags and improve search results.
@@ -40,4 +40,9 @@ DESC
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'Fondation'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire'
+  s.dependency 'Firebase'
+  s.dependency 'FirebaseMessaging'
+  s.dependency 'RxCocoa'
+  s.dependency 'RxSwift'
 end
