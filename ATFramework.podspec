@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ATFramework'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'A short description of ATFramework.'
 
 # This description is used to generate tags and improve search results.
@@ -38,6 +38,6 @@ DESC
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'Fondation'
+  # s.frameworks = 'Fondation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
