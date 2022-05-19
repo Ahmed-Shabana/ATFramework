@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0494C68D2836A3D10030412A /* TestFW.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0494C68C2836A3D10030412A /* TestFW.xcframework */; };
+		0494C68F2836A67B0030412A /* TestFW.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0494C68E2836A67B0030412A /* TestFW.xcframework */; };
 		27ACC923109E4A800130F033A5E707E2 /* Pods-ATFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9551087385A68AA260F2487575512A5F /* Pods-ATFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52E788513020BF185FD94786CD27CAB2 /* ATFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543F99F1548337DA64CF042FCB0092E /* ATFramework-dummy.m */; };
 		5950F70A1362E4BFC28E6C659C72AB7D /* ATFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B177532F6065EF5DA7B2340EFF9E3C00 /* ATFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,7 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0494C68C2836A3D10030412A /* TestFW.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestFW.xcframework; path = ../Classes/TestFW.xcframework; sourceTree = "<group>"; };
+		0494C68E2836A67B0030412A /* TestFW.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestFW.xcframework; path = ../ATFramework/Classes/TestFW.xcframework; sourceTree = "<group>"; };
 		0543F99F1548337DA64CF042FCB0092E /* ATFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATFramework-dummy.m"; sourceTree = "<group>"; };
 		1CEC6EAFF3F18DC48E11FB9100E1901B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1E7EC1A0360785F40C591DA219B36946 /* Pods-ATFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATFramework_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -66,8 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0494C68D2836A3D10030412A /* TestFW.xcframework in Frameworks */,
 				65AEE2DA88E0CD7742A59E4E119CCD6A /* Foundation.framework in Frameworks */,
+				0494C68F2836A67B0030412A /* TestFW.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 		0494C68B2836A3BD0030412A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0494C68C2836A3D10030412A /* TestFW.xcframework */,
+				0494C68E2836A67B0030412A /* TestFW.xcframework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
