@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ATFramework'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'A short description of ATFramework.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ DESC
 
   #s.source_files = 'ATFramework/sourceFramework/**/*.swift'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 arm64e armv7 armv7s x86_64' }
-  s.ios.vendored_frameworks = 'ATFramework/Classes/ATFramework.xcframework'
+  s.ios.vendored_frameworks = 'ATFramework/Classes/TestFW.xcframework'
   # s.resource_bundles = {
   #   'ATFramework' => ['ATFramework/Assets/*.png']
   # }
