@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0494C68828368D510030412A /* fuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494C68728368D510030412A /* fuck.swift */; };
 		27ACC923109E4A800130F033A5E707E2 /* Pods-ATFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9551087385A68AA260F2487575512A5F /* Pods-ATFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52E788513020BF185FD94786CD27CAB2 /* ATFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543F99F1548337DA64CF042FCB0092E /* ATFramework-dummy.m */; };
 		5950F70A1362E4BFC28E6C659C72AB7D /* ATFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B177532F6065EF5DA7B2340EFF9E3C00 /* ATFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,7 +26,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0494C68728368D510030412A /* fuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fuck.swift; sourceTree = "<group>"; };
 		0543F99F1548337DA64CF042FCB0092E /* ATFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATFramework-dummy.m"; sourceTree = "<group>"; };
 		1CEC6EAFF3F18DC48E11FB9100E1901B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1E7EC1A0360785F40C591DA219B36946 /* Pods-ATFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATFramework_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -73,14 +71,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0494C68328368B620030412A /* sourceFramework */ = {
-			isa = PBXGroup;
-			children = (
-				0494C68728368D510030412A /* fuck.swift */,
-			);
-			name = sourceFramework;
-			sourceTree = "<group>";
-		};
 		180C1FD6C34200E098A9280EF6052A52 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +98,6 @@
 		64CBAA31EBCC003576F34A37D5BAD001 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0494C68328368B620030412A /* sourceFramework */,
 				731D00DE8F6CA2502CD7435F06CC1328 /* ATFramework.podspec */,
 				47476E64070586A6B882B3BAE06CE7AE /* LICENSE */,
 				1CEC6EAFF3F18DC48E11FB9100E1901B /* README.md */,
@@ -300,7 +289,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0494C68828368D510030412A /* fuck.swift in Sources */,
 				52E788513020BF185FD94786CD27CAB2 /* ATFramework-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

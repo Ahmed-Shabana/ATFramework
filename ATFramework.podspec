@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ATFramework'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'A short description of ATFramework.'
 
 # This description is used to generate tags and improve search results.
@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description      = <<-DESC
+This Software Development Kit allows you to accept online payments provided by JawwalPay
+DESC
 
   s.homepage         = 'https://github.com/Ahmed-Shabana/ATFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,10 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Ahmed-Shabana/ATFramework.git', :tag => s.version.to_s}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
-#  s.source_files = 'ATFramework/sourceFramework/**/*.swift'
-  
+  #s.source_files = 'ATFramework/sourceFramework/**/*.swift'
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 arm64e armv7 armv7s x86_64' }
+  s.ios.vendored_frameworks = 'ATFramework/Classes/ATFramework.xcframework'
   # s.resource_bundles = {
   #   'ATFramework' => ['ATFramework/Assets/*.png']
   # }
