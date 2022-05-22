@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0492F527283A51BA0099C952 /* configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492F526283A51BA0099C952 /* configuration.swift */; };
 		0494C68F2836A67B0030412A /* TestFW.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0494C68E2836A67B0030412A /* TestFW.xcframework */; };
 		27ACC923109E4A800130F033A5E707E2 /* Pods-ATFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9551087385A68AA260F2487575512A5F /* Pods-ATFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52E788513020BF185FD94786CD27CAB2 /* ATFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543F99F1548337DA64CF042FCB0092E /* ATFramework-dummy.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0492F526283A51BA0099C952 /* configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = configuration.swift; sourceTree = "<group>"; };
 		0494C68E2836A67B0030412A /* TestFW.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestFW.xcframework; path = ../ATFramework/Classes/TestFW.xcframework; sourceTree = "<group>"; };
 		0543F99F1548337DA64CF042FCB0092E /* ATFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATFramework-dummy.m"; sourceTree = "<group>"; };
 		1CEC6EAFF3F18DC48E11FB9100E1901B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				0494C68E2836A67B0030412A /* TestFW.xcframework */,
+				0492F526283A51BA0099C952 /* configuration.swift */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0492F527283A51BA0099C952 /* configuration.swift in Sources */,
 				52E788513020BF185FD94786CD27CAB2 /* ATFramework-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
